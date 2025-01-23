@@ -64,6 +64,7 @@ const App: React.FC = () => {
   const handleLogout = () => {
     setIsAuthenticated(false);
     localStorage.removeItem("isAuthenticated");
+    alert("Goodbye");
   };
 
   return (
